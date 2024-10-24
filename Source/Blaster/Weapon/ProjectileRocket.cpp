@@ -79,7 +79,7 @@ void AProjectileRocket::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, 
 	}
 	if (TrailSystemComponent && TrailSystemComponent->GetSystemInstance())
 	{
-		TrailSystemComponent->GetSystemInstance()->Deactivate();
+//		TrailSystemComponent->GetSystemInstance()->Deactivate();
 	}
 	if (ProjectileLoopComponent && ProjectileLoopComponent->IsPlaying())
 	{
